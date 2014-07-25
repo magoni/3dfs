@@ -25,7 +25,6 @@ class File3d {
 
     // filename text
     fill(0);
-    
     textAlign(CENTER);    
     text(this.fileName, 0, -ypos - 20, 1 + (w / 2));
     

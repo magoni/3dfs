@@ -1,5 +1,4 @@
-class FileBox
-{
+class File3d {  
   int w,
       xpos,
       ypos,
@@ -8,7 +7,7 @@ class FileBox
   float h;
   String fileName;
 
-  FileBox(int i, String n, int fileSize)
+  File3d (int i, String n, int fileSize)
   {
     w = 50;
     h = fileSize * .01;
@@ -35,9 +34,6 @@ class FileBox
     fill(255);
     box(w);
     popMatrix();
-    
-
-    
   }
   
   public int getIndex() {
@@ -47,4 +43,5 @@ class FileBox
   public String getFileName() {
     return this.fileName;
   }
+  
 }
